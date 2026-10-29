@@ -518,10 +518,15 @@ function escapeHtml(value) {
 // Start server
 // --------------------------------------------------
 
+<<<<<<< HEAD
 app.listen(PORT, () => {
 
     console.log(
         `DTS Backend running on http://localhost:${PORT}`
     );
 
+=======
+app.listen(PORT, '0.0.0.0', () => {
+    console.log('DTS Backend running on port 5000');
+>>>>>>> origin/main
 });
